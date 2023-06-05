@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+textarea{
+    resize: none !important;
+    overflow: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #1a004a;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #626262;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #1a004a;
+    font-weight: 700;
+}
+
+.divContent {
+    width: 50vw;
+}
+
+.divFormMain{
+    width: 50vw;
+}
+
+.form {
+    background-color: #fff;
+    padding: 40px;
+    width: 500px;
+    box-shadow: 0px 0px 25px #bababa;
+}
+
+main {
+    height: 100vh;
+}
+
+.imgMain {
+    background-image: url(image.jpeg);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #1a004a;
+    font-weight: 700;
+}
+
+label {
+    color: #1a004a;
+    font-weight: 500;
+}
+input {
+    padding: 10px;
+}
+
+textarea{
+    padding: 10px;
+    text-indent: 10px;
+    border:2px solid  rgb(210, 210, 210);
+}
+
+.btn-violet {
+    color: #fff;
+    background-color: #672dd2;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.btnLogin {
+    background-color: #fbfbfb;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    width: 115px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnSignUp {
+    background-color: #672dd2;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    width: 115px;
+    border-radius: 5px;
+    border: none;
+}
